@@ -19,6 +19,7 @@ public class OlympicRings_Threaded {
 			}
 		});
 		
+		Thread bk = new Thread(() ->{
 			Robot black = new Robot(400, 300);
 			black.setPenColor(Color.black);
 			black.penDown();
